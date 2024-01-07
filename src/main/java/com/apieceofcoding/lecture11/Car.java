@@ -20,6 +20,10 @@ public class Car extends Vehicle implements HeadLight, FuelDoor {
 
     @Override
     public void fillUp(int fuel) {
+        if (fuel < 0) {
+            System.out.println("연료는 0 이상이어야 합니다.");
+            return;
+        }
         System.out.println("연료를 채웁니다.");
         this.fuel += fuel;
     }
