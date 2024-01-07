@@ -1,9 +1,9 @@
 package com.apieceofcoding.lecture12.coding;
 
 public class Counter {
-    protected int count;
+    public int count;
 
-    protected void increment() {
+    public void increment() {
         count++;
     }
 }
