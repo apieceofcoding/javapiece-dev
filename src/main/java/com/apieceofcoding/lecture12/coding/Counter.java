@@ -1,4 +1,4 @@
-package com.apieceofcoding.coding;
+package com.apieceofcoding.lecture12.coding;
 
 public class Counter {
     protected int count;

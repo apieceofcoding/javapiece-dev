@@ -1,6 +1,6 @@
-package com.apieceofcoding.piece;
+package com.apieceofcoding.lecture12.piece;
 
-import com.apieceofcoding.coding.Counter;
+import com.apieceofcoding.lecture12.coding.Counter;
 
 public class LikesCounter extends Counter {
     public void incrementLikes() {
